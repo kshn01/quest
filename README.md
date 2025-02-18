@@ -14,7 +14,7 @@ I implemented code locally and got the below response.
 You dont seem to be running in AWS or GCP or Azure
 ```
 
-Created EC2 instance and run the code got *same error*. Checked and found the issue that need to disable to IMDSv2. And it worked!
+Created EC2 instance and run the code got *same error*. Checked configuration and found the issue, is that we need to disable to IMDSv2. And it worked!
 
 > Note: Code doesn't gives desired response in EC2 instances with IMDSv2 enabled.
 
@@ -47,3 +47,4 @@ Created a CICD pipeline to deploy the latest changes to ECS cluster.
 
 - I will create a CICD pipeline for automatic infra provisioning. (Currently we have to deploy infra manually)
 - I will add Route53 and certificates to host website with HTTPS.
+- I will implement Github actions AWS OIDC.
