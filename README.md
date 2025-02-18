@@ -36,6 +36,8 @@ Deployed it on AWS using below services:
 
 ### 🚧 CICD Github actions
 
+![actions](./docs/images/Screenshot%202025-02-19%20015906.png)
+
 Created a CICD pipeline to deploy the latest changes to ECS cluster.
 
 `.github/workflows` directory for CICD Workflows.
