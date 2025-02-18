@@ -10,8 +10,8 @@ env:
   ECR_REPOSITORY: quest-dev-frontend          
   ECS_SERVICE: quest-dev-frontend               
   ECS_CLUSTER: quest-dev-cluster                 
-  ECS_TASK_DEFINITION: MY_ECS_TASK_DEFINITION 
-  CONTAINER_NAME: MY_CONTAINER_NAME           
+  ECS_TASK_DEFINITION: deployment/quest-dev-frontend-task-definition.json
+  CONTAINER_NAME: quest-dev-frontend-container           
 
 
 jobs:
